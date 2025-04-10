@@ -5,7 +5,7 @@ console.log(obj.x);
  // function
 
  const obj2=require("./calculate/multiply.js");
-const {calculateSum,calculateMultiply}=require("./calculate")
+const {calculateSum,calculateMultiply}=require("./calculate");
 var a=20;
 var b=30;
 calculateSum(a,b);
