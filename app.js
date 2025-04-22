@@ -2,7 +2,7 @@ var name="Namaste NodeJs";
 // require("./xyz.js"); // one module into another module
 const obj=require("./calculate/sum.js");
 console.log(obj.x);
- // function
+ // function 
 
  const obj2=require("./calculate/multiply.js");
 const {calculateSum,calculateMultiply}=require("./calculate");
