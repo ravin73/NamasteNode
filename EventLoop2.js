@@ -47,7 +47,7 @@ process.nextTick(()=>{
 })
 
 function printA(){
-    console.log("a="+a);
+    console.log("a =",a);
 }
 printA();
 console.log("end of the event loop")
